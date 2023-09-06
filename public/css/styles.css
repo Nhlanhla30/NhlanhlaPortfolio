@@ -1,0 +1,150 @@
+/* Navbar Styles (Updated for Sticky Navbar) */
+.navbar {
+    background-color: #3F72AF; /* Navbar background color */
+    color: #F9F7F7; /* Navbar text color */
+    padding: 20px 0; /* Add some padding to the navbar */
+    position: fixed; /* Use fixed positioning to make the navbar sticky */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%;
+    z-index: 100; /* Ensure the navbar is above other content */
+}
+
+/* Add some padding to the body to compensate for the fixed navbar */
+body {
+    padding-top: 70px; /* Adjust this value based on your navbar height */
+}
+
+.logo a {
+    color: #112D4E; /* Logo text color */
+    font-size: 24px; /* Adjust logo font size */
+    font-weight: bold; /* Make the logo text bold */
+}
+
+.menu li {
+    margin: 0 10px; /* Add spacing between menu items */
+}
+
+.menu a {
+    color: #F9F7F7; /* Menu item text color */
+}
+
+/* Change navigation links' color on hover */
+.menu a:hover {
+    color: #DBE2EF; /* Change to a different color on hover */
+}
+
+
+/* Footer Styles (Updated for Sticky Footer) */
+footer {
+    background-color: #112D4E; /* Footer background color */
+    color: #F9F7F7; /* Footer text color */
+    padding: 20px 0; /* Add some padding to the footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Copyright Text */
+footer p {
+    font-size: 14px; /* Adjust font size for copyright text */
+}
+
+/* Social Media Icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between social icons */
+}
+
+/* Social Media Icon Styles */
+.social-icons a {
+    color: #F9F7F7; /* Icon color */
+    font-size: 24px; /* Icon size */
+}
+
+/* Change icon color on hover */
+.social-icons a:hover {
+    color: #DBE2EF; /* Change to a different color on hover */
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+    background-color: #F9F7F7; /* Background color for the hero section */
+    color: #112D4E; /* Text color for the hero section */
+    padding: 100px 0; /* Add padding to the hero section */
+    text-align: center; /* Center-align content */
+}
+
+.hero h1 {
+    font-size: 36px; /* Adjust the hero title font size */
+    margin-bottom: 20px; /* Add spacing below the hero title */
+}
+
+.hero p {
+    font-size: 18px; /* Adjust the paragraph font size */
+    margin-bottom: 30px; /* Add spacing below the paragraph */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #3F72AF; /* Background color for primary button */
+    color: #F9F7F7; /* Text color for primary button */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 16px; /* Adjust the button font size */
+    text-decoration: none; /* Remove underlines from links */
+    border-radius: 5px; /* Add rounded corners to the button */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .hero h1 {
+        font-size: 28px; /* Decrease title font size */
+    }
+    .hero p {
+        font-size: 16px; /* Decrease paragraph font size */
+    }
+    .btn-primary {
+        font-size: 14px; /* Decrease button font size */
+    }
+}
+
+/* About Section Styles */
+.about {
+    background-color: #F9F7F7; /* Background color for the about section */
+    color: #112D4E; /* Text color for the about section */
+    padding: 100px 0; /* Add padding to the about section */
+    text-align: center; /* Center-align content */
+}
+
+.about h2 {
+    font-size: 36px; /* Adjust the section title font size */
+    margin-bottom: 20px; /* Add spacing below the section title */
+}
+
+.about p {
+    font-size: 18px; /* Adjust the paragraph font size */
+    margin-bottom: 30px; /* Add spacing below paragraphs */
+}
+
+.about .last-paragraph {
+    margin-bottom: 60px; /* Add more margin to the last paragraph */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .about h2 {
+        font-size: 28px; /* Decrease section title font size */
+    }
+    .about p {
+        font-size: 16px; /* Decrease paragraph font size */
+    }
+}
+
